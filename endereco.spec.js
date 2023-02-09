@@ -29,7 +29,7 @@ describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
             dadosEndereco[0].telefone,
             dadosEndereco[0].email
 
-            )//vai pegar os dados do array 1
+            )//vai pegar os dados do array 0
         cy.get('.woocommerce-message').should('contain', 'Endereço alterado com sucesso') //assert
     });
 });
